@@ -14,6 +14,7 @@ import Profile from "./pages/doctor/Profile";
 import Bookingpage from "./pages/Bookingpage";
 import Appointmentpage from "./pages/Appointmentpage";
 import DoctorAppointment from "./pages/doctor/DoctorAppointment";
+import Loginwithotp from "./pages/Loginwithotp";
 
 function App() {
   const { loading } = useSelector((state) => state.alerts);
@@ -114,6 +115,15 @@ function App() {
               <Protectedroute>
                 <DoctorAppointment />
               </Protectedroute>
+            }
+          />
+
+          <Route
+            path="/login-otp"
+            element={
+              <Publicroute>
+                <Loginwithotp />
+              </Publicroute>
             }
           />
         </Routes>

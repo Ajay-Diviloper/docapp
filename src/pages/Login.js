@@ -40,6 +40,9 @@ const Login = () => {
           <Link to="/register" className="m-2">
             register here fff
           </Link>
+          <Link to="/login-otp" className="m-2">
+            login with otp
+          </Link>
           <button type="submit" className="btn btn-primary">
             {" "}
             login
