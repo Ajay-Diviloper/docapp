@@ -38,7 +38,7 @@ const Login = () => {
             <Input type="password" required />
           </Form.Item>
           <Link to="/register" className="m-2">
-            register here fff
+            register here
           </Link>
           <Link to="/login-otp" className="m-2">
             login with otp
